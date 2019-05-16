@@ -1,0 +1,14 @@
+name: json_widget
+description: Generate widgets from json
+author: Jonah Williams <jonahwilliams@google.com>
+version: 0.0.1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  build: 1.1.1
+  build_config:
+  dart_style:

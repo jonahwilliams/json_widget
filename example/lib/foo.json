@@ -1,0 +1,11 @@
+{
+    "name": "Center",
+    "params": {
+        "child": {
+            "name": "Text",
+            "params": {
+                "0": "addasss223123121213adsasd"
+            }
+        }
+    }
+}

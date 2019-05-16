@@ -1,0 +1,33 @@
+{
+    "name": "Column",
+    "params": {
+        "mainAxisAlignment": "#MainAxisAlignment.center",
+        "children": [
+            {
+                "name": "Text",
+                "params": {
+                    "0": "Hello, asdasasdd"
+                }
+            },
+            {
+                "name": "Text",
+                "params": {
+                    "0": "Hello, The222re"
+                }
+            },
+            {
+                "name": "Container",
+                "params": {
+                    "color": "#Color(0xFF22DD11)",
+                    "child": {
+                        "name": "SizedBox",
+                        "params": {
+                            "width": 220,
+                            "height": 200
+                        }
+                    }
+                }
+            }
+        ]
+    }
+}
