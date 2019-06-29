@@ -1,9 +1,15 @@
+// Copyright 2019 Jonah Williams. All rights reserved.
+// Use of this source code is governed by a BSD-style license that can be
+// found in the LICENSE file.
+
 import 'dart:async';
 import 'dart:convert';
 
 import 'package:build/build.dart';
 import 'package:dart_style/dart_style.dart';
+import 'package:meta/meta.dart';
 
+/// A builder which outputs widgets from json.
 class JsonWidgetBuilder implements Builder {
   const JsonWidgetBuilder();
 
@@ -58,7 +64,7 @@ class JsonWidgetBuilder implements Builder {
   };
 }
 
-
+@visibleForTesting
 class WidgetGenerator {
   const WidgetGenerator();
 
